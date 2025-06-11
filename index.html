@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anavrin Books</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="noise-overlay"></div>
+        <nav class="navbar">
+            <div class="logo">Anavrin</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="home">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span id="main-title"></span>
+                </h1>
+                <p class="hero-subtitle" id="typed-text"></p>
+                <div class="secondary-text" data-aos="fade-up" data-aos-delay="800">
+                    <span>Where books come alive and worlds unfold</span>
+                </div>
+                <div class="cta-container" data-aos="fade-up" data-aos-delay="1000">
+                    <a href="#" class="cta-button">Explore Books</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="book-showcase">
+            <div class="showcase-header">
+                <h2>Featured Titles</h2>
+                <div class="showcase-divider"></div>
+            </div>
+            
+            <div class="book-gallery">
+                <div class="book-item" data-aos="fade-up">
+                    <div class="book-image">
+                        <img src="./images/1.jpg" alt="Alice in Neverland">
+                        <div class="book-hover">
+                            <div class="book-details">
+                                <span class="book-genre">Fantasy</span>
+                                <h3>Alice in Neverland</h3>
+                                <p>A magical journey beyond imagination</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="book-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="book-image">
+                        <img src="./images/2.jpg" alt="Peter Pan in Wonderland">
+                        <div class="book-hover">
+                            <div class="book-details">
+                                <span class="book-genre">Adventure</span>
+                                <h3>Peter Pan in Wonderland</h3>
+                                <p>Two worlds collide in an epic tale</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="book-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="book-image">
+                        <img src="./images/3.jpg" alt="Lost in Never Woods">
+                        <div class="book-hover">
+                            <div class="book-details">
+                                <span class="book-genre">Mystery</span>
+                                <h3>Lost in Never Woods</h3>
+                                <p>A haunting tale of disappearance</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="featured-book">
+                <div class="featured-content" data-aos="fade-right">
+                    <h3>Book of the Month</h3>
+                    <h2>The Miraculous</h2>
+                    <p>In a world where magic is real but fading away, one girl discovers her extraordinary power to bring wonder back into a darkening world. A spellbinding tale of hope, courage, and the miraculous power of belief.</p>
+                    <div class="featured-meta">
+                        <span><i class="star">★</i> 4.8/5 Rating</span>
+                        <span>Fantasy/Young Adult</span>
+                    </div>
+                    <a href="#" class="featured-button">Discover Now</a>
+                </div>
+                <div class="featured-image" data-aos="fade-left">
+                    <img src="./images/4.jpg" alt="The Miraculous">
+                </div>
+            </div>
+            
+            <div class="book-gallery reverse">
+                <div class="book-item" data-aos="fade-up">
+                    <div class="book-image">
+                        <img src="./images/5.jpg" alt="Grounded for All Eternity">
+                        <div class="book-hover">
+                            <div class="book-details">
+                                <span class="book-genre">Supernatural</span>
+                                <h3>Grounded for All Eternity</h3>
+                                <p>When demons get detention</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="book-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="book-image">
+                        <img src="./images/6.jpg" alt="Witch's Secret">
+                        <div class="book-hover">
+                            <div class="book-details">
+                                <span class="book-genre">Magical Realism</span>
+                                <h3>Witch's Secret</h3>
+                                <p>Ancient powers in modern times</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="book-item coming-soon" data-aos="fade-up" data-aos-delay="200">
+                    <div class="book-image">
+                        <div class="coming-soon-overlay">
+                            <span>Coming Soon</span>
+                            <h3>New Releases</h3>
+                            <p>Subscribe to get notified</p>
+                            <a href="#" class="notify-button">Notify Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="showcase-footer">
+                <a href="#" class="view-all-button">Browse All Books</a>
+            </div>
+        </section>
+
+        <!-- New Reading Experience Section -->
+        <section class="reading-experience">
+            <div class="experience-header">
+                <h2>Immersive Reading Experience</h2>
+                <div class="experience-divider"></div>
+                <p class="experience-subtitle">Dive into books like never before</p>
+            </div>
+            
+            <div class="experience-container">
+                <div class="experience-left">
+                    <div class="book-3d">
+                        <div class="book-3d-cover">
+                            <img src="./images/1.jpg" alt="3D Book Cover">
+                        </div>
+                        <div class="book-3d-spine"></div>
+                        <div class="book-3d-pages"></div>
+                        <div class="book-3d-shadow"></div>
+                    </div>
+                </div>
+                
+                <div class="experience-right">
+                    <div class="experience-features">
+                        <div class="feature-item" data-aos="fade-up">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M12 3a9 9 0 0 1 9 9h-2a7 7 0 0 0-7-7V3z" fill="currentColor"/>
+                                    <path d="M12 3a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 9-9zm0 2a7 7 0 0 0-7 7a7 7 0 0 0 7 7a7 7 0 0 0 7-7a7 7 0 0 0-7-7z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Ambient Sound</h3>
+                                <p>Immerse yourself with carefully curated soundscapes that match your book's setting</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M9.973 18h4.054c.132-1.202.745-2.194 1.74-3.277c.113-.122.832-.867.917-.973a6 6 0 1 0-9.37-.002c.086.107.807.853.918.974c.996 1.084 1.609 2.076 1.741 3.278zM10 20v1h4v-1h-4zm-4.246-5a8 8 0 1 1 12.49.002C17.624 15.774 16 17 16 18.5V21a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.5C8 17 6.375 15.774 5.754 15z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Smart Lighting</h3>
+                                <p>Connect your smart home devices to create the perfect lighting for your reading mood</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10zm0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16zm-5-7h2a3 3 0 0 0 6 0h2a5 5 0 0 1-10 0zm1-2a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3zm8 0a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h3>Mood Tracking</h3>
+                                <p>Track your emotional journey through the book with our innovative mood tracking system</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-cta">
+                        <a href="#" class="experience-button">Try It Now</a>
+                        <div class="experience-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">87%</span>
+                                <span class="stat-label">Improved Immersion</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2.5x</span>
+                                <span class="stat-label">Reading Enjoyment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-testimonials">
+                <div class="testimonial-header">
+                    <h3>What Readers Say</h3>
+                </div>
+                
+                <div class="testimonial-carousel">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-quote">"I never thought reading could be this immersive. The ambient sounds transported me directly into the story!"</div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Emma R.</span>
+                            <span class="author-title">Fantasy Enthusiast</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote">"The mood tracking feature helped me understand my emotional connection to characters in a whole new way."</div>
+                        <div class="testimonial-author">
+                            <span class="author-name">James T.</span>
+                            <span class="author-title">Literary Fiction Reader</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote">"Smart lighting integration created the perfect atmosphere for my late night thriller sessions. Absolutely game-changing!"</div>
+                        <div class="testimonial-author">
+                            <span class="author-name">Sarah M.</span>
+                            <span class="author-title">Mystery Lover</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-text">Anavrin</div>
+                    <p class="footer-tagline">Where stories find their readers</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Authors</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Book Club</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links-column">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z" fill="currentColor"/></svg>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" fill="currentColor"/></svg>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 1.802c-2.67 0-2.986.01-4.04.059-.976.045-1.505.207-1.858.344-.466.182-.8.398-1.15.748-.35.35-.566.684-.748 1.15-.137.353-.3.882-.344 1.857-.048 1.055-.058 1.37-.058 4.041 0 2.67.01 2.986.058 4.04.045.976.207 1.505.344 1.858.182.466.399.8.748 1.15.35.35.684.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058 2.67 0 2.987-.01 4.04-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.684.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041 0-2.67-.01-2.986-.058-4.04-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 0 0-.748-1.15 3.098 3.098 0 0 0-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.054-.048-1.37-.058-4.041-.058zm0 3.063a5.135 5.135 0 1 1 0 10.27 5.135 5.135 0 0 1 0-10.27zm0 1.802a3.333 3.333 0 1 0 0 6.666 3.333 3.333 0 0 0 0-6.666zm6.538-3.11a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z" fill="currentColor"/></svg>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z" fill="currentColor"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Join Our Newsletter</h4>
+                    <p>Stay updated with new releases and literary events</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2023 Anavrin Books. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <div class="footer-decoration">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 18.5V5a3 3 0 0 1 3-3h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5A3.5 3.5 0 0 1 3 18.5zM19 20v-3H6.5a1.5 1.5 0 0 0 0 3H19zM5 15.337A3.486 3.486 0 0 1 6.5 15H19V4H6a1 1 0 0 0-1 1v10.337z" fill="currentColor"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 21v2h-2v-2H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a3.99 3.99 0 0 1 3 1.354A3.99 3.99 0 0 1 15 3h6a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-8zm7-2V5h-5a2 2 0 0 0-2 2v12h7zm-9 0V7a2 2 0 0 0-2-2H4v14h7z" fill="currentColor"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M9.973 18h4.054c.132-1.202.745-2.194 1.74-3.277.113-.122.832-.867.917-.973a6 6 0 1 0-9.37-.002c.086.107.807.853.918.974.996 1.084 1.609 2.076 1.741 3.278zM10 20v1h4v-1h-4zm-4.246-5a8 8 0 1 1 12.49.002C17.624 15.774 16 17 16 18.5V21a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.5C8 17 6.375 15.774 5.754 15z" fill="currentColor"/></svg>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
